@@ -2,7 +2,7 @@
 .hero {
   background-image: url($homepage_background_image);
   background-position: center;
-  background-size: cover;
+  background-size: auto;
   height: 300px;
   padding: 0 20px;
   text-align: center;
@@ -10,7 +10,5 @@
 
   &-inner {
     @include vertical-align;
-    max-width: 610px;
-    margin: 0 auto;
   }
 }

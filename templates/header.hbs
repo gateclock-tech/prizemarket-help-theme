@@ -1,18 +1,41 @@
 <a class="skip-navigation" tabindex="1" href="#main-content">{{t 'skip_navigation' }}</a>
-
 <header class="header">
   <div class="logo">
-    {{#link 'https://prizemarket.com'}}
-      <img src="{{settings.logo}}" alt="{{t 'home_page' name=help_center.name}}" />
-      {{#if settings.show_brand_name}}
-        <span aria-hidden="true">{{help_center.name}}</span>
-      {{/if}}
+    {{#link 'help_center'}}
+    <svg x="0px" y="0px" width="40" height="40" viewBox="0 0 741.75 741.75">
+      <g id="Logo">
+        <path fill="#ff521b" stroke="#ff521b" stroke-width="48" stroke-miterlimit="10"
+          d="M206.29,622.45c0-58.73,0-179.78,0-270.94 c0-0.8,0-10.29,0-23.5c0-32.46,0-87.39,0-91.04"></path>
+        <path fill="#ff521b" stroke="#ff521b" stroke-width="48" stroke-miterlimit="10"
+          d="M535.46,622.45c0-58.73,0-179.78,0-270.94 c0-0.8,0-10.29,0-23.5c0-32.46,0-87.39,0-91.04"></path>
+        <path fill="none" stroke="#ff521b" stroke-width="48" stroke-miterlimit="10"
+          d="M535.46,327.01c0,30.3-24.56,54.86-54.86,54.86 c-30.3,0-54.86-24.56-54.86-54.86c0,30.3-24.56,54.86-54.86,54.86s-54.86-24.56-54.86-54.86c0,30.3-24.56,54.86-54.86,54.86 s-54.86-24.56-54.86-54.86">
+        </path>
+        <path fill="none" stroke="#ff521b" stroke-width="48" stroke-miterlimit="10"
+          d="M425.74,327.01c0-56.34,0-90.04,0-90.04"></path>
+        <path fill="none" stroke="#ff521b" stroke-width="48" stroke-miterlimit="10"
+          d="M316.01,236.97c0,0,0,33.7,0,90.04"></path>
+        <path id="Bow_Right" fill="none" stroke="#ff521b" stroke-width="36" stroke-linecap="round"
+          stroke-linejoin="round" stroke-miterlimit="10"
+          d=" M370.88,216.48c0,0,174.55-31.69,170.93-72.71s-74.77-18.08-74.77-18.08S385.68,147.43,370.88,216.48z">
+        </path>   
+        <path id="Bow_Left" fill="none" stroke="#ff521b" stroke-width="36" stroke-linecap="round"
+          stroke-linejoin="round" stroke-miterlimit="10"
+          d=" M370.88,216.48c0,0-174.55-31.69-170.93-72.71c3.62-41.02,74.77-18.08,74.77-18.08S356.08,147.43,370.88,216.48z">
+        </path>
+        <rect id="Door" x="316.01" y="512.72" fill="#ff521b" width="109.73" height="109.73"></rect>
+      </g> 
+    </svg>
+    {{#if settings.show_brand_name}}
+    <span aria-hidden="true">{{help_center.name}}</span>
+    {{/if}}
     {{/link}}
   </div>
-  <div class="nav-wrapper">
+  <div class="nav-wrapper"> 
     <button class="menu-button" aria-controls="user-nav" aria-expanded="false" aria-label="{{t 'toggle_navigation'}}">
-      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" focusable="false" viewBox="0 0 16 16" class="icon-menu">
-        <path fill="none" stroke="currentColor" stroke-linecap="round" d="M1.5 3.5h13m-13 4h13m-13 4h13"/>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" focusable="false" viewBox="0 0 16 16"
+        class="icon-menu">
+        <path fill="none" stroke="currentColor" stroke-linecap="round" d="M1.5 3.5h13m-13 4h13m-13 4h13" />
       </svg>
     </button>
     <nav class="user-nav" id="user-nav">

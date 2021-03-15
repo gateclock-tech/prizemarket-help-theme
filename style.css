@@ -999,12 +999,11 @@ ul {
 
 .search-icon {
   position: relative;
-  transform: translateY(-50%);
   position: absolute;
   left: 15px;
   z-index: 1;
   width: 18px;
-  height: 18px;
+  height: 40px;
   color: #777;
 }
 
